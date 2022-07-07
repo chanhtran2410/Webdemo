@@ -1,0 +1,132 @@
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+/*Text typography*/
+textarea {
+	color: #424646;
+    font-family: 'Poppins', sans-serif;
+	font-weight:400;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	margin: 0;
+}
+p {
+	color:#757575;
+	margin: 0;
+	line-height:24px;
+}
+a,button,input{
+	font-weight:400;
+}
+
+
+/*Section typography*/
+.section {
+	padding: 100px 0;
+	position: relative;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 0 215px;
+}
+.section-title h2 {
+	font-size: 30px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+	position: relative;
+	color: #2c2d3f;
+	font-weight: 700;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+
+.section-title p {
+	font-size: 14px;
+	color: #666;
+}
+.container{
+	max-width:1170px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+	/* Fallback for when there is no custom background color defined. */
+}
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+ul,ul li{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+img {
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
+}
+
+figure {
+	margin: 1em 0;
+	/* Extra wide images within figure tags don't overflow the content area. */
+}
+
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+
+/*--------------------------------------------------------------
+## Links color
+--------------------------------------------------------------*/
+a {
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+a:hover, a:focus, a:active {
+	color: inherit;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
