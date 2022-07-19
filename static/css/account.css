@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(0, orange, orangered) no-repeat;
+}
+
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header {
+    height: 75px;
+    background-color: #fff
+}
+
+.auth-form {
+    margin: 5% auto;
+    height: 330px;
+    width: 400px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.form-heading {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.form-heading-arrow-left {
+    position: absolute;
+    left: 3%;
+    top: 25%;
+    font-size: large;
+    cursor: pointer;
+}
+
+.form-input {
+    display: flex;
+    background-color: transparent;
+    outline: 0;
+    margin: 0 20px;
+    width: 90%;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: solid 1px #2c2626;
+}
+
+
+.form-icon {
+    font-size: 30px;
+}
+
+.form-help {
+    position: relative;
+    padding: 8px 0;
+}
+
+.form-help .form-remember-me {
+    position: absolute;
+    left: 2%;
+}
+
+.form-help .form-forgot-pass {
+    position: absolute;
+    right: 2%;
+} 
+
+
+.form-btn-output {
+    display: block;
+    border-radius: 10px;
+    background-color: orange;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.form-btn-output:hover {
+    cursor: pointer;
+}
+
+.form-sign-up a ,
+.form-help .form-forgot-pass a {
+    color: orange;
+}
+
+.form-sign-up:hover a, 
+.form-help .form-forgot-pass:hover a {
+    color: rgb(234, 234, 44);
+}
+
+.form-other-login-ways img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.form-other-login-ways .form-connect-with {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.875rem;
+}
+
+.form-other-login-ways .form-connect-with .dash {
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+    flex: 1;
+}
+
+.form-other-login-ways .form-connect-with p {
+    padding: 0 1rem;
+}
