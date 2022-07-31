@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    background: #fff;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .aboutus-container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .card {
+    display:inline-grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-gap: 0px;
+    background: #fff;
+    margin-bottom: 100px;
+    height: 600px;
+    width:1500px;
+  }
+  
+  .card h3 {
+    margin-bottom: 2rem;
+  }
+  
+  .card img {
+    height: 600px;
+  }
+  
+  .card > div {
+    padding: 2rem;
+    background-color: white;
+    margin:0 -1px -1px 0;
+    border: 1px solid white;
+    text-align: center;
+  
+  
+  }
+  
+  
+  
+  @media(max-width:600px) {
+    .card {
+      display: block;
+    }
+  }
+  
+  .thank-you {
+  height: 50px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:'Be Vietnam Pro';
+  }
+
+
+
+  /*----------------*/
+#Price-box {
+    block-size: 50px;
+    box-sizing: border-box;
+    float: left;
+    height: 75px;
+    inline-size: 495px;
+    width: 495px;
+    background: rgb(240, 240, 240) none repeat scroll 0% 0% / auto padding-box border-box;
+    font-size: 25px ;
+    font-weight: 500px;
+    font-style: "Open Sans";    
+    margin: 15px 0px;
+    padding: 15px 15px;
+}/*#DIV_1*/
+
+
+#Price {
+    box-sizing: border-box;
+    color: #F7941D;
+    text-decoration: none solid #F7941D;
+    text-size-adjust: 100%;
+    border: 0px none #F7941D;
+    font-size: 30px ;
+    font-weight: 500px;
+    margin: 0px 10px 0px 0px;
+}/*#SPAN_2*/
+
+#Info-box {
+    block-size: 138px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    float: left;
+    height: 250px;
+    inline-size: 495px;
+    width: 500px;
+}/*#DIV_1*/
+
+
+#Info{
+    box-sizing: border-box;
+    float: left;
+    height: 50px;
+    width: 500px;
+    border: 0px none rgb(102, 102, 102);
+    font: 200 14px / 20px "Open Sans", Arial, Tahoma, Helvetica, sans-serif;
+    margin: 0px 0px 5px;
+    outline: rgb(102, 102, 102) none 0px;
+}/*#DIV_2, #DIV_6, #DIV_10*/
+
+#Request {
+    float: left;
+    height: 100px;
+    inline-size: 200px;
+    width: 200px;
+    font-size:20px;
+    line-height: 50px;
+}/*#DIV_3*/
+
+#Answer {
+    float: left;
+    height: 100px;
+    inline-size: 200px;
+    width: 200px;
+    font-size:20px;
+    line-height: 50px;
+}/*#DIV_5*/
+
+
+#Cart {
+    block-size: 96px;
+    box-sizing: border-box;
+    caret-color: rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
+    column-rule-color: rgb(51, 51, 51);
+    float: left;
+    height: 96px;
+    inline-size: 495px;
+    margin-block-start: 10px;
+    padding-block-start: 15px;
+    perspective-origin: 247.5px 48px;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-emphasis-color: rgb(51, 51, 51);
+    text-size-adjust: 100%;
+    transform-origin: 247.5px 48px;
+    width: 495px;
+    border-top: 1px dotted rgb(152, 152, 152);
+    border-right: 0px none rgb(51, 51, 51);
+    border-bottom: 0px none rgb(51, 51, 51);
+    border-left: 0px none rgb(51, 51, 51);
+    font: 12px / 17.1429px "Open Sans", Arial, Tahoma, Helvetica, sans-serif;
+    margin: 10px 0px 0px;
+    outline: rgb(51, 51, 51) none 0px;
+    padding: 15px 0px 0px;
+}/*#DIV_1*/
+
+
+#FORM_2 {
+    block-size: 0px;
+    border-block-end-color: rgb(51, 51, 51);
+    border-block-start-color: rgb(51, 51, 51);
+    border-inline-end-color: rgb(51, 51, 51);
+    border-inline-start-color: rgb(51, 51, 51);
+    box-sizing: border-box;
+    caret-color: rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
+    column-rule-color: rgb(51, 51, 51);
+    height: 0px;
+    inline-size: 495px;
+    margin-block-end: 0px;
+    perspective-origin: 247.5px 0px;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-emphasis-color: rgb(51, 51, 51);
+    text-size-adjust: 100%;
+    transform-origin: 247.5px 0px;
+    width: 495px;
+    border: 0px none rgb(51, 51, 51);
+    font: 12px / 17.1429px "Open Sans", Arial, Tahoma, Helvetica, sans-serif;
+    margin: 0px;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#FORM_2*/
+
+
+#Quantity-input {
+    block-size: 30px;
+    float: left;
+    height: 30px;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 495px;
+    border: 0px none rgb(102, 102, 102);
+    margin: 0px 0px 10px;
+    font-size: 18px;
+
+}/*#DIV_3*/
+
+#Quantity {
+    block-size: 30px;
+    color: rgb(102, 102, 102);
+    height: 30px;
+    width: 40px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 3px;
+    font-size: 15px;
+    margin: 0px 0px 0px 5px;
+    outline: rgb(102, 102, 102) none 0px;
+}
+
+
+
+#buy {
+    background-color: #F7941D; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 10px;
+    margin: 10px;
+    height: 55px;
+}
+#add {
+    background-color: rgb(244, 189, 175);
+    color: rgb(253, 80, 35);
+    border: 2px solid rgb(253, 80, 35);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 10px;
+    margin: 10px;
+    height: 55px;
+}
